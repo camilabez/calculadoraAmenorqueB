@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A menor que B</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Calculadora A < B</h1>
+      <h2 class="instrucao">Adicione os números nos campos abaixo:</h2>
+      <form id="form-calculadora">
+        <input type="number" id="campo-a" required placeholder="Campo A" />
+        <input type="number" id="campo-b" required placeholder="Campo B" />
+        <button id="btn-calcular" type="submit">Calcular</button>
+      </form>
+      <p class="mensagem-valida">Válido: A é menor que B</p>
+      <p class="mensagem-invalida">Inválido: A é maior que B</p>
+      <p class="mensagem-invalida-igual">Inválido: A é igual a B</p>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
